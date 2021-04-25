@@ -10,9 +10,15 @@
       cursor: pointer;
       background-color:transparent;
       color: white;
+      font-size: large;
+      line-height: 1.5;
+      padding: 5px;
+      margin: 5px;
+      flex-grow: 0;
     }
     .background-black {
       background-color:black;
+      display: flex;
     }
     .shadow {
       box-shadow: 0 0 15px rgba(0,0,0,0.8);
@@ -24,6 +30,10 @@
       flex-direction: column;
     }
     .js-video-container {
+      flex-grow: 1;
+    }
+    .empty-space {
+      display: inline;
       flex-grow: 1;
     }
   </style>
@@ -43,6 +53,10 @@
       </button>
       <button class="js-volume-button" hidden>
         <i class="fa fa-volume-off" aria-hidden="true"></i>
+      </button>
+      <div class="empty-space"></div>
+      <button class="js-fullscreen-button" style="justify-content: flex-end;">
+        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
       </button>
     </div>
   </div>
