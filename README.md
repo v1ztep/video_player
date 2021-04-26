@@ -9,15 +9,15 @@
 
 Откройте файл `index.html` любым текстовым редактором.
 
-При необходимости можно поменять, на 
-[73ей строке кода](https://github.com/v1ztep/video_player/blob/e030a3e1addade126677f937ed6bb0b3c8f9bd3e/index.html#L73), 
-источник видео, заменив в поле `src: ''` на вашу ссылку в кавычках:
+При необходимости можно поменять 
+[источник видео](https://github.com/v1ztep/video_player/blob/436b1f9ee26d1d5b8644ec36599e231cd6cff053/index.html#L69),
+заменив в поле `src: ''` на вашу ссылку в кавычках:
 
 ```
 src: 'ВАША_ССЫЛКА'
 ```
 Также можно поменять размер плеера, поменяв значения 
-[width, height](https://github.com/v1ztep/video_player/blob/e030a3e1addade126677f937ed6bb0b3c8f9bd3e/index.html#L29-L30),
+[width, height](https://github.com/v1ztep/video_player/blob/436b1f9ee26d1d5b8644ec36599e231cd6cff053/index.html#L24-L25),
 например:
 ```
 width: 1000px;
