@@ -6,6 +6,24 @@
   <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <style type="text/css">
+    #player {
+      width: 800px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    }
+    .bottom-controls {
+      display: flex;
+      background-color:black;
+    }
+    .shift-button-aside {
+      display: inline;
+      flex-grow: 1;
+    }
+    .screen {
+      flex-grow: 1;
+    }
     .player-button {
       border-style: none;
       cursor: pointer;
@@ -15,24 +33,6 @@
       line-height: 1.5;
       padding: 5px;
       margin: 5px;
-    }
-    .bottom-controls {
-      display: flex;
-      background-color:black;
-    }
-    #player {
-      width: 800px;
-      height: 600px;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 0 15px rgba(0,0,0,0.8);
-    }
-    .screen {
-      flex-grow: 1;
-    }
-    .shift-button-aside {
-      display: inline;
-      flex-grow: 1;
     }
   </style>
 </head>
@@ -59,6 +59,5 @@
       src: 'https://dvmn.org/media/filer_public/d0/16/d016d9b8-4180-4bb9-ad83-0241f61627b8/samsung_demo_-_alive_in_color.mp4'
     });
   </script>
-
 </body>
 </html>
