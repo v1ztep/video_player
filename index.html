@@ -6,25 +6,25 @@
   <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <style type="text/css">
-    #player {
+    .player {
       width: 800px;
       height: 600px;
       display: flex;
       flex-direction: column;
       box-shadow: 0 0 15px rgba(0,0,0,0.8);
     }
-    .bottom-controls {
+    .player .bottom-controls {
       display: flex;
       background-color:black;
     }
-    .shift-button-aside {
+    .player .shift-button-aside {
       display: inline;
       flex-grow: 1;
     }
-    .screen {
+    .player .screen {
       flex-grow: 1;
     }
-    .player-button {
+    .player .player-button {
       border-style: none;
       cursor: pointer;
       background-color:transparent;
@@ -37,7 +37,7 @@
   </style>
 </head>
 <body>
-  <div id="player">
+  <div class="player" id="player">
     <div class="screen js-video-container"></div>
     <div class="bottom-controls">
       <button class="player-button js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
