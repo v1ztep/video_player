@@ -33,18 +33,34 @@
       width: 37px;
       height: 42px;
     }
-    .player .timeline {
+    .player .viewing-panel {
       display: flex;
       justify-content: space-between;
       flex-grow: 1;
+      align-self: center;
       color: white;
       font-family: 'Roboto', sans-serif;
-      padding-top: 10px;
-      margin-left: 1px;
       font-size: 16px;
+      margin-bottom: 1px;
     }
-    .player .timeline .progress-bar {
+    .player .viewing-panel .current-time {
+      margin-left: 1px;
+    }
+    .player .viewing-panel .viewing-progressbar {
       flex-grow: 2;
+      align-self: center;
+      margin-left: 9px;
+      margin-right: 9px;
+      height: 5px;
+    }
+    .player .viewing-panel .viewing-progressbar .progress {
+      background-color: black;
+      height: 5px;
+      border-radius: 25px;
+    }
+    .player .viewing-panel .viewing-progressbar .progress-slider {
+      background-color: #f8104d;
+      height: 5px;
     }
   </style>
 </head>
@@ -56,14 +72,14 @@
       <button class="player-button js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
       <button class="player-button js-mute-button"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
       <button class="player-button js-volume-button" hidden><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-      <div class="timeline">
-        <span class="js-current-time"></span>
-        <div class="progress-bar">
-          <div class="js-progress" style="background-color: grey;">
-          <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
+      <div class="viewing-panel">
+        <span class="current-time js-current-time"></span>
+        <div class="viewing-progressbar">
+          <div class="progress js-progress">
+            <div class="progress-slider js-progress-slider"></div>
           </div>
         </div>
-        <span class="js-duration"></span>
+        <span class="duration js-duration"></span>
       </div>
       <button class="player-button js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
     </div>
