@@ -62,6 +62,15 @@
       background-color: #f8104d;
       height: 5px;
     }
+    .dot {
+      height: 7px;
+      width: 7px;
+      background-color: #f8104d;
+      border-radius: 50%;
+      border: 3px solid white;
+      display: inline-block;
+      box-shadow: 0 0 10px black;
+    }
   </style>
 </head>
 <body>
@@ -77,6 +86,7 @@
         <div class="viewing-progressbar">
           <div class="progress js-progress">
             <div class="progress-slider js-progress-slider"></div>
+            <span class="dot"></span>
           </div>
         </div>
         <span class="duration js-duration"></span>
