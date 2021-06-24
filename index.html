@@ -43,6 +43,9 @@
       margin-left: 1px;
       font-size: 16px;
     }
+    .player .timeline .progress-bar {
+      flex-grow: 2;
+    }
   </style>
 </head>
 <body>
@@ -56,7 +59,9 @@
       <div class="timeline">
         <span class="js-current-time"></span>
         <div class="progress-bar">
-          —
+          <div class="js-progress" style="background-color: grey;">
+          <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
+          </div>
         </div>
         <span class="js-duration"></span>
       </div>
