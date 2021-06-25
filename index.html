@@ -42,21 +42,27 @@
       font-family: 'Roboto', sans-serif;
       font-size: 16px;
       margin-bottom: 1px;
+      height: 30px;
     }
     .player .viewing-panel .current-time {
       margin-left: 1px;
+      margin-top: 5px;
+    }
+    .player .viewing-panel .duration {
+      margin-left: 1px;
+      margin-top: 5px;
     }
     .player .viewing-panel .viewing-progressbar {
       flex-grow: 2;
-      align-self: center;
-      margin-left: 9px;
+      margin-left: 10px;
       margin-right: 9px;
-      height: 5px;
+      height: 30px;
     }
     .player .viewing-progressbar .progress {
       display: flex;
       flex-direction: row;
       background-color: black;
+      margin-top: 13px;
       height: 5px;
     }
     .player .viewing-progressbar .progress-slider {
@@ -76,7 +82,7 @@
       margin-top: -4px;
       opacity: 0;
     }
-    .player .progress:hover .dot {
+    .player .viewing-progressbar:hover .dot {
         opacity: 1;
       }
   </style>
