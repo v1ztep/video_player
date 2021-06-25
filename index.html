@@ -54,6 +54,8 @@
       height: 5px;
     }
     .player .viewing-panel .viewing-progressbar .progress {
+      display: flex;
+      flex-direction: row;
       background-color: black;
       height: 5px;
     }
@@ -85,7 +87,8 @@
         <span class="current-time js-current-time"></span>
         <div class="viewing-progressbar">
           <div class="progress js-progress">
-            <div class="progress-slider js-progress-slider"><span class="dot"></span></div>
+            <div class="progress-slider js-progress-slider"></div>
+            <span class="dot"></span>
           </div>
         </div>
         <span class="duration js-duration"></span>
