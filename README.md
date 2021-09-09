@@ -1,6 +1,6 @@
 # Видеоплеер
 
-![Settings-Git-Hub-Pages.png](https://i.postimg.cc/0jxJfHhq/screenshot-19.png)
+![Settings-Git-Hub-Pages.png](https://i.postimg.cc/J72qCH7P/screenshot-69.png)
 
 Заготовка видеоплеера, доступна по ссылке 
 [https://v1ztep.github.io/video_player/](https://v1ztep.github.io/video_player/)
